@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="m.jpg">
+    <link rel="stylesheet" href="style.css">
+        
+    <title>My Portfolio</title>
+    <style>
+        .d1{
+            border-radius: 10%;
+            margin-right: 660px;
+            margin-top: 100px;
+        }
+
+        /* Add styles for text input areas */
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 2px solid #ccc; /* Add border */
+            border-radius: 5px; /* Add border radius */
+        }
+
+        /* Add focus styles for text input areas */
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            border-color: rgb(4, 165, 255); /* Change border color on focus */
+            outline: none; /* Remove default focus outline */
+        }
+        #b1 {
+             width: 398px;
+            height: 30px;   
+        }   
+
+        #b1:hover {
+            color: whitesmoke;
+            background-color: rgb(4, 165, 255);
+            transition-duration: 0.5s;
+        }
+
+        h1{
+            color: rgb(4 165 255);;
+            margin-left: 550PX;
+            margin-top: -472PX;
+        }
+        .contact-info {
+            margin-top: 50px;
+            margin-left: 550PX;
+        }
+        .contact-info p {
+            color:rgb(4 165 255);
+           font-style: italic;
+           font-size: 20px;
+            margin-bottom: 20px; /* Add margin bottom for space between items */
+        }
+        #button{
+            margin-left: 550px;
+        
+        }
+        #button ion-icon {
+            margin-right: 20px; /* Add margin between icons */
+        }
+        #d2{
+            color: rgb(4 165 255);
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        <header>
+            <div id="navbar">
+                <div id="d2"><b> PORTFOLIO.. </b></div>
+                <a href="home.html" id="logo">Home</a>
+                <a href="about.html" id="l3">About Me</a>
+                <a href="service.html" id="l1">Services</a>
+                <a href="contact.html" id="l2">Contact us</a>
+            </div>
+        </header>
+        <div id="content">
+            
+            <form>
+                <div class="d1">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" required placeholder="Enter Your Name">&nbsp;&nbsp;
+                <label for="email"></label>
+                <input type="email" id="email" name="email" required placeholder="Enter Your E-mail"><br><br>
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" required placeholder="Enter Your Subject"><br><br>
+                <label for="message"></label><br>
+                <textarea id="message" name="message" rows="4" required placeholder="Enter Your Message"></textarea><br><br>
+                <input type="submit" value="Submit" id="b1">
+                </div>
+                <h1>Contact Me</h1>
+                <div class="contact-info">
+                    <p>Name: Masrani Swayam</p>
+                    
+                    <p>Email: swayammasrani14@gmail.com</p>
+                    <p>Phone: +91-7383171733</p>
+                </div>
+                <div id="button">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-github"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+            </form>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <footer>
+            Made with ❤️ by Us<br>
+            &#169; 2023-2024, Masrani.com
+            <br>Believe us ❤️
+        </footer>
+    </div>
+</body>
+</html>

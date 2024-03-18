@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Inline styles */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f7f7f7;
+          color: #333;
+        }
+
+        header {
+          
+          color: white;
+          text-align: center;     
+        }
+
+        main {
+          padding: 2rem;
+        }
+
+        .service-group {
+          margin-bottom: 2rem;
+        }
+
+        .service-group h1 {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+
+        .row {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 2rem;
+        }
+
+        .column {
+          flex: 0 0 calc(50% - 1rem);
+          padding: 1rem;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .column:hover {
+          transform: scale(1.05);
+          color: rgb(4 165 255);
+        }
+
+        .service {
+          position: relative;
+        }
+
+        .service h2 {
+          color: #333;
+          margin-bottom: 1rem;
+        }
+
+        .service p {
+          color: #666;
+          line-height: 1.6;
+          text-align: center;
+        }
+
+        .service img {
+          max-width: 100px;
+          margin-bottom: 1rem;
+        }
+
+        footer {
+          color: #7F9F80;
+          text-align: center;
+          padding: 1rem 0;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          font-size: 0.8rem;
+        }
+        h1{
+          color: rgb(4 165 255);
+        }
+        #d2{
+            color: rgb(4 165 255);
+        }
+    </style>
+</head>
+<body>
+   <div id="d1">
+       <header>
+           <div id="navbar">
+            <div id="d2"><b> PORTFOLIO.. </b></div>
+            <a href="home.html" id="logo">Home</a>
+            <a href="about.html" id="l3">About Me</a>
+            <a href="service.html" id="l1">Services</a>
+            <a href="contact.html" id="l2">Contact us</a>
+            </div>
+       </header>
+       <div id="content">
+        <main>
+          <div class="service-group">
+            <h1>Our Services</h1>
+            <div class="row">
+              <div class="column" style="margin-right: 1rem;">
+                <section class="service">
+                    <ion-icon name="desktop-sharp"></ion-icon>
+                  <h2>Web Design</h2>
+                  <p>Our web design services are tailored to create stunning and user-friendly websites that reflect your brand identity.</p>
+                </section>
+              </div>
+              <div class="column" style="margin-left: 1rem;">
+                <section class="service">
+                  <ion-icon name="logo-android"></ion-icon>
+                  <h2>Application Development</h2>
+                  <p>We develop custom applications to meet your specific business needs, ensuring functionality and user satisfaction.</p>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="service-group">
+            <div class="row">
+              <div class="column" style="margin-right: 1rem;">
+                <section class="service">
+                  <ion-icon name="logo-html5"></ion-icon> 
+                  <ion-icon name="logo-css3"></ion-icon>
+                  <h2>HTML & CSS</h2>
+                  <p>We are proficient in HTML and CSS, the building blocks of modern web development, to create beautiful and responsive websites.</p>
+                </section>
+              </div>
+              <div class="column" style="margin-left: 1rem;">
+                <section class="service">
+                  <ion-icon name="logo-javascript"></ion-icon>
+                  <h2>JavaScript</h2>
+                  <p>With JavaScript, we can add interactivity and dynamic content to your websites, enhancing user experience.</p>
+                </section>
+              </div>
+            </div>
+          </div>
+        </main>
+       </div>
+       <footer>
+           Made with ❤️ by Us<br>
+           &#169; 2023-2024, Masrani.com
+           <br>Believe us ❤️
+       </footer>
+   </div>
+   <script src="script.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
